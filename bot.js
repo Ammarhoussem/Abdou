@@ -1175,3 +1175,7 @@ client.on('message', message => {
    message.channel.sendEmbed(EsTeKnAN);
   }
 });
+
+
+// THIS  MUST  BE  THIS  WAY
+client.login(process.env.BOT_TOKEN);
